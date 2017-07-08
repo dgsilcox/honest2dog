@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+}
+
+.clear { clear:both; }
+
+.header {
+    padding-top:5%;
+    width:100%;
+    # background-color:rgb(200,191,231);
+    background-color:rgb(254,130,54);
+}
+
+.menu {
+    background-color:grey;
+}
+
+.menuItem {
+    margin-left:2%;
+    margin-right:2%;
+}
+
+.menuItem a {
+    color:black;
+}
+
+
+.logo {
+    float:left;
+    align:center;
+    margin-left:5%;
+    # border-style:solid;
+    width:30%;
+}
+
+.logo img {
+ height: auto;
+ width: 100%;
+ overflow:hidden;
+}
+
+.contactInfo {
+    text-align:right;
+    float:right;
+    margin-right:5%;
+    padding-top:5%;
+    align:center;
+    # border:10px;
+    # border-style: solid;
+    # width:25%;
+    # border-width: 1px;
+}
+
+.homeLeft {
+    float:left;
+}
+
+.homeRight {
+    float:right;
+    margin-right:5%;
+}
+.homeRight img {
+    float:right;
+    width:35%;
+    height:auto;
+}
+.bodyText {
+    padding-top:2%;
+    margin-left: 5%;
+    # margin-right: 5%;
+    text-align:left;
+    align:center;
+    background-color:white;
+}
