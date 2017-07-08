@@ -5,7 +5,13 @@ export default class Body extends Component {
     return (
       <div className="bodyText">
         <span className="homeLeft">
-            <p>Welcome to Honest To Dog</p>
+
+            <p>
+
+            Welcome to Honest To Dog Bad Wolf
+
+            </p>
+
         </span>
         <span className="homeRight">
             <img src="jinks_bad_dog.jpg" alt="Jinks with Chewed Dog Bed"/>

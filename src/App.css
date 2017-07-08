@@ -53,13 +53,14 @@
 
 .homeLeft {
     float:left;
+    width:60%;
 }
 
 .homeRight {
-    float:right;
     margin-right:5%;
 }
 .homeRight img {
+    margin-right:5%;
     float:right;
     width:35%;
     height:auto;
@@ -71,4 +72,29 @@
     text-align:left;
     align:center;
     background-color:white;
+}
+
+.services {
+align:center;
+}
+
+.services table {
+# border-style:solid;
+# border-collapse: collapse;
+padding:25px;
+width:50%;
+}
+
+.oddRow  {
+background-color:rgb(125,255,255);
+# padding-top:1px;
+# padding-bottom:5px;
+# width:50%;
+}
+
+.evenRow  {
+background-color:rgb(255,255,190);
+# padding-top:1px;
+# padding-bottom:5px;
+# width:50%;
 }

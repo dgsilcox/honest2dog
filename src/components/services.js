@@ -1,19 +1,19 @@
 import React, { Component } from 'react';
 
 import Header from './header.js';
-import HomeContent from './homecontent.js';
 import Menu from './menu.js';
+import ServicesContent from './servicescontent.js';
 
-class Home extends Component {
+class Services extends Component {
   render() {
     return (
-      <div>
+      <div className="App">
         <Header/>
         <Menu/>
-        <HomeContent/>
+        <ServicesContent/>
       </div>
     );
   }
 }
 
-export default Home;
+export default Services;

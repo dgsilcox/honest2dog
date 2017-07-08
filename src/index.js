@@ -10,6 +10,8 @@ import { BrowserRouter,Switch, Route } from 'react-router-dom'
 import './index.css';
 import App from './App';
 import About from './components/about';
+import Services from './components/services';
+
 import registerServiceWorker from './registerServiceWorker';
 
 /*
@@ -24,6 +26,7 @@ ReactDOM.render((
     <Switch>
         <Route exact path="/" component={App}/>
         <Route path="/home" component={App}/>
+        <Route path="/services" component={Services}/>
         <Route path="/about" component={About}/>
     </Switch>
   </BrowserRouter>
