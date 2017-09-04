@@ -7,15 +7,21 @@ export default class Body extends Component {
         <span className="homeLeft">
 
             <p>
-
-            Welcome to Honest To Dog Bad Wolf
-
+                Our website is under construction.
+            </p>
+            <p>
+                Please connect with us on Facebook.
+            </p>
+            <p>
+                <a href="https://www.facebook.com/honesttodogrva/"><img src="img/FB-FindUsOnFacebook-printpackaging-2.png" alt="Find Us On Facebook Link"/></a>
             </p>
 
         </span>
+        {/*
         <span className="homeRight">
             <img src="jinks_bad_dog.jpg" alt="Jinks with Chewed Dog Bed"/>
         </span>
+        */}
       </div>
     );
   }
