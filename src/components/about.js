@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Header from './header.js';
 import Menu from './menu.js';
 import AboutContent from './aboutcontent.js';
+import Footer from './footer.js';
 
 class About extends Component {
   render() {
@@ -11,6 +12,7 @@ class About extends Component {
         <Header/>
         <Menu/>
         <AboutContent/>
+        <Footer/>
       </div>
     );
   }
