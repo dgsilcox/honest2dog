@@ -82,20 +82,63 @@
   color:white;
 }
 
-.homeLeft {
+.homePage {
     # float:left;
-
-    width:100%;
+    # width:95%;
+    # height:95%;
+    # background-image: url("/img/brisbane_leaves.jpg");
+    # background-size: 100% 100%;
+    # background-repeat: no-repeat;
+    background-color:white;
+   #background-color: green;
 }
 
-.homeRight {
-    margin-right:5%;
+.homeImg {
+  # background-color: green;
 }
-.homeRight img {
-    margin-right:5%;
-    float:right;
-    width:35%;
-    height:auto;
+
+.homePage img {
+#  border-style:solid;
+#  position: relative;
+#  float: left;
+  width: 95%;
+ filter: brightness(75%);
+#  background-color: blue;
+   # z-index: -1;
+}
+
+.homeText {
+ position   : absolute;
+# border-style:solid;
+ #  position: relative;
+ #   float:left;
+   # top: 50%;
+   left: 10%;
+   width:35%;
+#    height: 80%;
+   font-size: 130%;
+   # font-weight: bold;
+   font-weight: 900;
+   color: rgb(167,198,228);
+   text-align:left;
+  #  background-color: green;
+   # z-index: -1;
+   # color: blue;
+
+}
+
+.homeTextTop {
+# position: relative;
+  margin-top: 50%;
+#  color: red;
+# border-style:solid;
+
+}
+.homeTextBottom {
+#  color:green;
+  margin-bottom:5%;
+# border-style:solid;
+
 }
 
 .bodyText {

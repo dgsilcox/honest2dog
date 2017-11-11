@@ -12,7 +12,9 @@ class Home extends Component {
         <Header/>
         <Menu/>
         <HomeContent/>
+        {/*
         <Footer/>
+        */}
       </div>
     );
   }
