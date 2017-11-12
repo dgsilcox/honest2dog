@@ -84,6 +84,13 @@
    font-weight: bold;
    color: rgb(167,198,228);
    text-align:left;
+
+   # font-family: 'Montserrat';
+   # font-family: 'Open Sans';
+   # font-family: Palanquin;
+   # font-family: Archivo,Arial;
+   # font-family: FiraSans,Helvetica,sans-serif;
+   # font-family: Playfair,Helvetica,sans-serif;
    font-family:"Dubai,Arial";
 }
 
@@ -180,6 +187,11 @@
 .servicesText {
     font-size:100%;
     text-align: left;
+   # font-family: Archivo,Arial;
+   # font-family: FiraSans,Helvetica,sans-serif;
+   # font-family: Playfair,Helvetica,sans-serif;
+   font-family:"Dubai,Arial";
+
 }
 
 
@@ -200,7 +212,7 @@
 .footer {
     width:100%;
     height:7%;
-#    position: absolute;
+    # position: absolute;
     # right: 0;
     bottom: 2%;
     # left: 0;
