@@ -3,46 +3,26 @@ import React, { Component } from 'react';
 export default class Body extends Component {
   render() {
     return (
-<div>
+
       <div className="servicesPage">
 
         <table>
           <tr>
-            <td className="servicesImage"></td>
-            <td>
-              <table>
-                  <tr>
-                    <td className="servicesTitle">New Puppy Consult –  Initial 1 ½ hour consult $125.00</td>
-                  </tr>
-                  <tr>
-                    <td className="servicesText">Puppies younger than 5 months. 1 ½ hour consult on the new puppy you plan to add or have added to your family. We will discuss the basic training you want your new puppy to have, what activities your new puppy might enjoy based on your pup’s personality and breed/mix, introductions to current family pets, and provide a quick start training demo for your entire family.</td>
-                  </tr>
-              </table>
-            </td>
+            <td className="servicesTitle">New Puppy Consult –  Initial 1 ½ hour consult $125.00</td>
           </tr>
-{/*}
-          <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
-*/}
           <tr>
-            <td className="servicesImage"></td>
-            <td>
-              <table>
-                  <tr>
-                    <td className="servicesTitle">New Puppy Package – Five Custom Sessions $575.00</td>
-                  </tr>
-
-                  <tr>
-                    <td className="servicesText">Puppies younger than 5 months. Five sessions - Includes the New Puppy Intro consult plus four additional customized, one hour training sessions for you and any family members. Together we will select the skills you want your puppy to learn and design a training plan to get you on your way to a great relationship with your puppy.</td>
-                  </tr>
-
-              </table>
-            </td>
+            <td className="servicesText">Puppies younger than 5 months. 1 ½ hour consult on the new puppy you plan to add or have added to your family. We will discuss the basic training you want your new puppy to have, what activities your new puppy might enjoy based on your pup’s personality and breed/mix, introductions to current family pets, and provide a quick start training demo for your entire family.</td>
           </tr>
-{/*}
-
           <tr><td>&nbsp;</td></tr>
-*/}
-{/*}
+
+
+          <tr>
+            <td className="servicesTitle">New Puppy Package – Five Custom Sessions $575.00</td>
+          </tr>
+          <tr>
+            <td className="servicesText">Puppies younger than 5 months. Five sessions - Includes the New Puppy Intro consult plus four additional customized, one hour training sessions for you and any family members. Together we will select the skills you want your puppy to learn and design a training plan to get you on your way to a great relationship with your puppy.</td>
+          </tr>
+          <tr><td>&nbsp;</td></tr>
 
           <tr>
             <td className="servicesTitle">New Dog Consult – Initial 1 ½ hour consult $125.00</td>
@@ -96,10 +76,9 @@ export default class Body extends Component {
             <td className="servicesText">Pets over 5 months.  We work on what you want to work on.</td>
           </tr>
           <tr><td>&nbsp;</td></tr>
-*/}
+
 
         </table>
-      </div>
       </div>
 
     );
