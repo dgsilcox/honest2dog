@@ -11,6 +11,7 @@ import './index.css';
 import App from './App';
 import About from './components/about';
 import Services from './components/services';
+import VetServices from './components/vetservices';
 import Goals from './components/goals';
 import registerServiceWorker from './registerServiceWorker';
 
@@ -29,6 +30,7 @@ ReactDOM.render((
         <Route path="/services" component={Services}/>
         <Route path="/about" component={About}/>
         <Route path="/goals" component={Goals}/>
+        <Route path="/veterinary" component={VetServices}/>
     </Switch>
   </BrowserRouter>
 
