@@ -64,7 +64,8 @@
 }
 
 .homePage {
-     width:100%;
+    margin-left: 5%;
+    width:100%;
     background-color:white;
 }
 
@@ -95,34 +96,46 @@
 .bodyText {
     font-size:100%;
     padding-top:2%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     text-align:left;
     background-color:white;
     font-family:"Dubai,Arial";
 }
 
 .aboutLeft {
-    # border-style: solid;
-    # border-width: 1px;
+  #  border-style: solid;
+  #  border-width: 1px;
     float:left;
-    width:48%;
+    margin-left: 5%;
+    width:43%;
+}
+.aboutLeft img {
+  width: 99%;
 }
 
-.aboutLeft img {
-  # border-style: solid;
-  width: 70%;
-  # width:30px;
+.aboutRight img {
+  width: 99%;
 }
 
 .aboutRight {
+  #  border-style: solid;
+  #  border-width: 1px;
+    margin-right: 5%;
     float:right;
-    # border-style: solid;
-    # border-width: 1px;
     text-align: left;
     align: top;
-    width: 48%;
-   #  width:45%;
+    width: 43%;
+}
+
+.aboutBottom {
+   float: left;
+  #  border-style: solid;
+  #  border-width: 1px;
+    width:100%;
+    text-align:left;
+    margin-left: 5%;
+    margin-right: 10%;
 }
 
 .services {
