@@ -73,7 +73,7 @@ export default class Body extends Component {
             <td className="servicesTitle">Single Private Training Sessions – 1 hour per session $125.00</td>
           </tr>
           <tr>
-            <td className="servicesText">Pets over 5 months.  We work on what you want to work on.</td>
+            <td className="servicesText">We work on what you want to work on.</td>
           </tr>
           <tr><td>&nbsp;</td></tr>
 
