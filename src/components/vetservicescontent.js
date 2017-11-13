@@ -23,7 +23,7 @@ export default class Body extends Component {
             <td className="vetservicesText"><p>Looking to bond your customers and patients to you and your business or practice?</p>
             <p>Want to promote low stress patient visits or grooming?</p>
             <p>The most innovative businesses are integrating procedures and handling skills that bring back the enjoyment of working with animals.</p>
-            <p>Honest To Dog’s Fear Free® Certified trainer can help train your team in the hands on skills to make this a reality. Workshops are available for small or large groups in veterinary, grooming and daycare settings.</p>
+            <p>Honest To Dog’s Fear Free® Certified trainer (Virginia's First) can help train your team in the hands on skills to make this a reality. Workshops are available for small or large groups in veterinary, grooming and daycare settings.</p>
             <p>Contact us for a list of available workshops and private sessions.</p>
             </td>
           </tr>
