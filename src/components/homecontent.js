@@ -11,7 +11,7 @@ export default class Body extends Component {
                    <span className="homeTextBottom"><br/><p>Let’s start the journey to your best dog, today!</p></span>
                 </span>
             </div>
-            <div className="homeFooter"><img src="img/artemis_leaves.gif"/></div>
+            <div className="homeFooter"><img src="img/artemis_leaves_1.jpg"/></div>
         </div>
     );
   }
