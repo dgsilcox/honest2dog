@@ -17,7 +17,7 @@ export default class Body extends Component {
           <tr><td>&nbsp;</td></tr>
         */}
           <tr>
-            <td className="vetservicesTitle">Pet Professional Workshops – Cooperative Care and Handling</td>
+            <td className="vetservicesTitle">Pet Professional Workshops <br/> Cooperative Care and Handling</td>
           </tr>
           <tr>
             <td className="vetservicesText"><p>Looking to bond your customers and patients to you and your business or practice?</p>
