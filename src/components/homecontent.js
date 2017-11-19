@@ -3,26 +3,15 @@ import React, { Component } from 'react';
 export default class Body extends Component {
   render() {
     return (
-      <div className="bodyText">
-        <span className="homeLeft">
+        <div className="homePage" >
+            <img src="img/brisbane_leaves.gif"/>
+            <span className="homeText">
+               <span className="homeTextTop"><p>Private, custom dog training based on trust and cooperation.</p></span>
+               <span className="homeTextBottom"><br/><p>Let’s start the journey to your best dog, today!</p></span>
+            </span>
 
-            <p>
-                Our website is under construction.
-            </p>
-            <p>
-                Please connect with us on Facebook.
-            </p>
-            <p>
-                <a href="https://www.facebook.com/honesttodogrva/"><img src="img/FB-FindUsOnFacebook-printpackaging-2.png" alt="Find Us On Facebook Link"/></a>
-            </p>
+        </div>
 
-        </span>
-        {/*
-        <span className="homeRight">
-            <img src="jinks_bad_dog.jpg" alt="Jinks with Chewed Dog Bed"/>
-        </span>
-        */}
-      </div>
     );
   }
 }
