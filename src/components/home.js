@@ -3,18 +3,16 @@ import React, { Component } from 'react';
 import Header from './header.js';
 import HomeContent from './homecontent.js';
 import Menu from './menu.js';
-import Footer from './footer.js';
+import HomeFooter from './homefooter.js';
 
 class Home extends Component {
   render() {
     return (
-      <div>
+      <div class="content">
         <Header/>
         <Menu/>
         <HomeContent/>
-        {/*
-        <Footer/>
-        */}
+        <HomeFooter/>
       </div>
     );
   }

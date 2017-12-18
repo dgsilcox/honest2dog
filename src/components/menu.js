@@ -11,9 +11,8 @@ export default class Menu extends Component {
   render() {
     return (
       <div className="menu">
-         <span className="menuItem">&nbsp;</span>
          <Dropdown>
-               <DropdownTrigger><img src="img/menu_icon.png"/></DropdownTrigger>
+               <DropdownTrigger><img src="img/menu-512.png"/></DropdownTrigger>
                <DropdownContent>
                  <ul>
                    <li><a href="/home">home</a></li>
@@ -24,8 +23,6 @@ export default class Menu extends Component {
                  </ul>
                </DropdownContent>
           </Dropdown>
-
-
       </div>
 
     );
