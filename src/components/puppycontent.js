@@ -5,71 +5,66 @@ export default class Body extends Component {
     return (
 
       <div className="servicesPage">
-
         <div>
+          <br/>
           <span className="servicesPageTitle">Puppy Training</span><br/><span className="servicesText">Puppies under 6 months</span>
         </div>
         <hr/>
         <div className="servicePageLeft">
-          <img src="img/IMG_0393.jpg"/>
+          <img src="img/callisto_puppy.jpg"/>
+          <br/>
         </div>
         <div className="servicePageRight">
-
-              <p>Puppy Training is focused on ...</p>
-              <p>We will discuss the basic training you want your new puppy to have, what activities your new puppy might enjoy based on your pup’s personality and breed/mix.
+              <p>
+                Evaluation or consult on the new puppy you plan to add or have added to your family.  We will discuss the basic training you want your new puppy to have, what activities your new puppy might enjoy based on your pup’s personality and breed/mix.
               </p>
-              <br/><br/><br/><br/><br/><br/><br/>
+              <p>
+                All engagements start with our Inital Consult.
+              </p>
+              <br/><br/>
         </div>
-        <div>
-          <span className="clear"></span>
-        </div>
+        <div className="servicePageRates">
         <div>
            <hr/>
            <span className="servicesPageTitle">Rates</span>
-           <hr/>
          </div>
-
          <div>
-         Initial Consult
+             <br/>
+             <span className="servicesTitle">Initial Consult - $125.00</span>
+             <br/>
+             <span className="servicesText">Start the learning series with a quick start training demo for your entire family</span>
+         </div>
+         <div>
          <br/>
-         blah blah blah
+         <br/>
+         <span className="servicesTitle">Packages</span>
+         <br/>
+         <span className="servicesText">Customized 1 hr sessions for you and any family members</span>
+         <br/><br/>
+         <table>
+             <tr>
+                <td><span className="servicesTitle">3 Custom Sessions</span></td>
+                <td><span className="servicesTitle">5 Custom Sessions</span></td>
+                <td><span className="servicesTitle">7 Custom Sessions</span></td>
+             </tr>
+             <tr>
+                <td><span className="servicesText">$285 (5% savings)</span></td>
+                <td><span className="servicesText">$450 (10% savings)</span></td>
+                <td><span className="servicesText">$595 (15% savings)</span></td>
+                </tr>
+             </table>
          </div>
 
          <div>
-         packages
-         <table>
-         <tr><td>3</td><td>5</td><td>7</td>
-         </tr>
-         </table>
+             <br/>
+             <br/>
+             <span className="servicesTitle">Single 1 hr follow up sessions - $100.00</span>
+             <br/>
+             <span className="servicesText"></span>
+             <br/>
          </div>
 
-        <table>
-
-          <tr>
-            <td className="servicesTitle">Consult - 1 ½ hours</td>
-            <td className="servicesText">Quick start training demo for your entire family.  Introductions to current family pets. ($125.00)</td>
-          </tr>
-
-          <tr>
-            <td className="servicesTitle">1 hr custom follow up sessions</td>
-            <td className="servicesText">Customized, one hour training sessions for you and any family members. Together we will select the skills you want your puppy to learn and design a training plan to get you on your way to a great relationship with your puppy.  ($100.00)</td>
-          </tr>
-
-          <tr>
-            <td className="servicesTitle">Packages</td>
-            <td className="servicesText">
-                <ul>
-                    <li>3 custom Sessions $285 (5% savings)</li>
-                    <li>5 custom Sessions $450 (10% Savings)</li>
-                    <li>7 custom Sessions $595 (15% Savings)</li>
-
-                </ul>
-            </td>
-          </tr>
-
-        </table>
-
-
+      </div>
       </div>
 
     );

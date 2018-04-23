@@ -36,16 +36,15 @@ constructor() {
     return (
       <div className="menu">
         <span>
-<span>{this.state.width} x {this.state.height}</span>
          <Dropdown>
                <DropdownTrigger><img src="img/menu-512.png"/>{/*Menu*/}</DropdownTrigger>
                <DropdownContent>
                  <ul>
                    <li><a href="/home">home</a></li>
-                   <li><a href="/mission">mission</a></li>
-                   <li><a href="/about">about</a></li>
                    <li><a href="/services">services</a></li>
                    <li><a href="/professionals">professionals</a></li>
+                   <li><a href="/mission">mission</a></li>
+                   <li><a href="/about">about</a></li>
                  </ul>
                </DropdownContent>
           </Dropdown>
@@ -57,10 +56,10 @@ constructor() {
           return (
             <div className="menu">
             <span className="menuItem"><a href="/home">home</a></span>
-            <span className="menuItem"><a href="/mission">mission</a></span>
-            <span className="menuItem"><a href="/about">about</a></span>
             <span className="menuItem"><a href="/services">services</a></span>
             <span className="menuItem"><a href="/professionals">professionals</a></span>
+            <span className="menuItem"><a href="/mission">mission</a></span>
+            <span className="menuItem"><a href="/about">about</a></span>
             </div>
           );
      }

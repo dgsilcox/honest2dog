@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Header from './header.js';
 import Menu from './menu.js';
 import PuppyContent from './puppycontent.js';
+import Footer from './footer.js';
 
 class Puppy extends Component {
   render() {
@@ -11,6 +12,7 @@ class Puppy extends Component {
         <Header/>
         <Menu/>
         <PuppyContent/>
+        <Footer/>
       </div>
     );
   }
