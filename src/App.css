@@ -286,7 +286,8 @@
     padding:5%;
     width:30%;
     vertical-align: center;
-    background-color:rgb(238,129,55);
+    # background-color:rgb(238,129,55);
+    background: linear-gradient(orange,red);
     # width:100px;
 }
 
