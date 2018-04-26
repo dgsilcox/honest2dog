@@ -3,17 +3,12 @@ import Dropdown, {DropdownTrigger,DropdownContent} from 'react-simple-dropdown'
 
 
 export default class Menu extends Component {
-
- handleMouseDown () {
-  }
-
-
   render() {
     return (
       <div className="menu">
-         <span className="menuItem">&nbsp;</span>
+        <span>
          <Dropdown>
-               <DropdownTrigger><img src="img/menu_icon.png"/></DropdownTrigger>
+               <DropdownTrigger><img src="img/menu-512.png"/></DropdownTrigger>
                <DropdownContent>
                  <ul>
                    <li><a href="/home">home</a></li>
@@ -24,8 +19,7 @@ export default class Menu extends Component {
                  </ul>
                </DropdownContent>
           </Dropdown>
-
-
+          </span>
       </div>
 
     );

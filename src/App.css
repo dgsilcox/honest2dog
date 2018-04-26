@@ -4,6 +4,7 @@
 
 .body {
     font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .clear { clear:both; }
@@ -20,14 +21,33 @@
     height:5px;
 }
 
+.contactInfo {
+    # border-style:solid;
+    width:55%;
+    float:right;
+    color:white;
+    text-align:right;
+    margin-right:3%;
+    padding-top:3%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+}
+
+.contactInfo img {
+    height:30px;
+    margin-top:3px;
+    margin-left:15px;
+}
+
+.contactInfo a {
+  text-decoration:none;
+  color:white;
+}
+
 .menu {
     background-color:rgb(167,198,228);
-    color:black;
     height:5%;
     width:100%;
-    text-align: left;
-    margin-right:5%;
-    padding-right:5%;
 }
 
 .menuItem {
@@ -36,25 +56,22 @@
 }
 
 .menu ul {
+  text-align :center;
   background-color:rgb(167,198,228);
   list-style-position: inside;
   list-style-type: none;
   padding: 0;
-  # color: rgb(167,198,228);
 }
 
 .menu li {
-  text-align :left;
+  text-align :center;
 }
 
 .menu img {
-    background-color:rgb(167,198,228);
+    height:20px;
 }
 
 .menu ul li a {
-  # list-style-type: none;
-  # color: rgb(167,198,228);
-  # color: white;
   color: rgb(172,86,0);
   font-weight: 600;
   text-decoration:none;
@@ -62,10 +79,12 @@
 
 .dropdown {
    display: inline-block;
+   width:100%;
+   height:100%;
 }
 
 .dropdown__trigger {
-  color: black;
+   # border-style:solid;
 }
 
 .dropdown__content {
@@ -75,15 +94,15 @@
 
 .dropdown--active .dropdown__content {
     display: block;
+    font-size: 16pt;
     z-index:99;
-    # color: rgb(172,86,0);
-    # color:black;
+    width:100%;
     text-decoration:none;
-    # color: rgb(167,198,228);
     background-color:rgb(167,198,228);
 }
 
 .logo {
+    # border-style:solid;
     float:left;
     align:center;
     margin-left:5%;
@@ -96,53 +115,82 @@
     overflow:hidden;
 }
 
-.contactInfo {
-    color:white;
-    text-align:right;
-    float:right;
-    margin-right:3%;
-    padding-top:3%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size:15px;
-}
-
-.contactInfo a {
-  text-decoration:none;
-  color:white;
-}
 
 .homePage {
+    position:relative;
     margin-left: 0%;
     margin-right:0%;
+    margin-top: 0%;
+    margin-bottom:0%;
+    padding-top:0%;
+    padding-bottom:0%;
     width:100%;
+    background-color:rgb(75,76,77);
 }
 
-.homePage img {
+
+.homeTop img {
   # position: relative;
   width: 100%;
   filter: brightness(70%);
+
 }
 
 .homeText {
    position: absolute;
-   top: 25%;
-   left: 3%;
-   width:40%;
-   font-size: 2.7vw;
+   top:2%;
+   left:3%;
+   width:55%;
    font-weight: bold;
    color: rgb(167,198,228);
    text-align:left;
 }
 
 .homeTextTop {
-}
-.homeTextBottom {
+   font-size: 3vw;
+   font-style: italic;
 }
 
-.homeFooter img {
-    # background-color:rgb(75,76,77);
-    # height: 200px;
-    width: 100%;
+.homeTextBottom {
+    font-size: 2.7vw;
+    width:70%;
+}
+
+.homeBottom {
+    text-align:center;
+    background-color:rgb(75,76,77);
+    width:100%;
+    color:white;
+}
+
+.homeBottom hr {
+    width: 40%;
+    border-color: rgb(167,198,228);
+    # border-color:black;
+}
+
+.homefooter {
+    width:100%;
+    height:7%;
+    background-color:rgb(75,76,77);
+    bottom: 2%;
+
+}
+
+.homefooter table {
+    # border-style: solid;
+    width:100%;
+}
+
+.homefooter td {
+   # border-style: solid;
+   # border-color: #ff0000 #0000ff;
+    width:15%;
+}
+
+.homefooter img {
+  height:50px;
+  # width:100%;
 }
 
 .bodyText {
@@ -303,6 +351,7 @@
 }
 
 .footer img {
+  # width:100%;
   height: 50px;
   # width:5%;
 }
