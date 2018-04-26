@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Header from './header.js';
 import Menu from './menu.js';
 import HandleWithCareContent from './handlewithcarecontent.js';
+import Footer from './footer.js';
 
 class HandleWithCare extends Component {
   render() {
@@ -11,6 +12,7 @@ class HandleWithCare extends Component {
         <Header/>
         <Menu/>
         <HandleWithCareContent/>
+        <Footer/>
       </div>
     );
   }

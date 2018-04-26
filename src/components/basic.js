@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Header from './header.js';
 import Menu from './menu.js';
 import BasicContent from './basiccontent.js';
+import Footer from './footer.js';
 
 class Basic extends Component {
   render() {
@@ -11,6 +12,7 @@ class Basic extends Component {
         <Header/>
         <Menu/>
         <BasicContent/>
+        <Footer/>
       </div>
     );
   }
