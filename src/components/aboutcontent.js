@@ -7,8 +7,8 @@ export default class About extends Component {
       <div className="aboutTop">
         <p><span className="creds">Owner & Director of Training</span><br/>Michelle Mullins,<span className="creds"> KPA CTP, CPDT-KSA<br/>&amp; my honest dog, Jinks</span></p>
       </div>
-      <div><img src="img/Michelle-and-Jinks_2.gif"/></div>
-      <div className="aboutBottom">
+      <div className="aboutLeft"><img src="img/Michelle-and-Jinks_2.gif"/></div>
+      <div className="aboutRight">
         <p>With over 15 years of experience in the pet training industry, 
            I would love to share my experience with you and your family pet.
            My passion is developing long, enriching relationships between pets and their people through training.
@@ -16,6 +16,8 @@ export default class About extends Component {
         </p>
         <p>Honest To Dog was inspired by my desire to provide animal training and behavior consulting based in the science of learning, with emphasis on the welfare of the pets in our care.</p>
         <p>To achieve this I continue to pursue the best in animal training education.</p>
+      </div>
+      <div className="aboutBottom">
         <p><b>Professional Certifications and Associations</b>:
         <ul>
           <li>KPA CTP, Karen Pryor Academy Certified Training Partner</li>

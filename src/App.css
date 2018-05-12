@@ -210,6 +210,7 @@
 
 .aboutPage {
     font-family: Arial, Helvetica, sans-serif;
+display: block;
 }
 
 .aboutTop {
@@ -217,25 +218,51 @@
   font-size: 200%;
 }
 
-.aboutPage img {
-  width: 100%;
+.aboutLeft {
+  float:left;
+#  width:40%;
+  margin-left:5%;
+  margin-right:5%;
+#  border-style:solid;
 }
 
-.aboutMid {
+.aboutRight {
+#   float: right;
+#   width:40%;
+#   border-style:solid;
+   text-align:left;
+   margin-left: 5%;
+   margin-right: 5%;
+}
 
+.aboutRight p{
+#   width:100%;
+}
+
+.aboutLeft img {
+#  border-style:solid;
+#   width: 100%;
+    width:400px;
+#  padding:0%;
+#   margin-left: 1%;
+#   margin-right: 1%;
+
+}
+
+.aboutBottom {
+    clear:both;
+    margin-top:5%;
+    margin-right:5%;
+    margin-left:5%;
+    display:block;
+    text-align:left;
 }
 
 .creds {
   font-size:70%;
 }
 
-.aboutBottom {
-   float: left;
-   width:95%;
-   text-align:left;
-   margin-left: 3%;
-   margin-right: 10%;
-}
+
 
 
 .goalsPage {
@@ -326,11 +353,15 @@
 
 .servicePageLeft {
    margin-left:5%;
+   margin-right:5%;
+   margin-bottom:5%;
    float:left;
 }
 .servicePageRight {
 #   float:right;
+  text-align: left;
   margin-right:5%;
+  margin-left:5%;
 }
 
 .servicesPage img {

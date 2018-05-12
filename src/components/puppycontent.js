@@ -11,7 +11,7 @@ export default class Body extends Component {
         </div>
         <hr/>
         <div className="servicePageLeft">
-          <img src="img/callisto_puppy.jpg"/>
+          <img src="img/callisto_puppy_orig.jpg"/>
           <br/>
         </div>
         <div className="servicePageRight">
