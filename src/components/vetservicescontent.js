@@ -5,13 +5,19 @@ export default class Body extends Component {
     return (
 
       <div className="vetservicesPage">
-        <div>
+        <div className="vetservicesTitle">
         <br/>
-        <span className="vetservicesTitle">Pet Professional Workshops & Presentations</span>
+        Pet Professional Workshops & Presentations
+        <br/>
         </div>
-        <div>
+        <div className="servicePageLeft">
+          <br/>
+          <img src="img/honest_to_dog_booth.jpg"/>
+        </div>
+        <div className="servicePageRight">
         <br/>
-        <span className="vetservicesTitle">Handle With Care Workshops</span><span>– Call or email for pricing</span>
+        <br/>
+        <span className="vetservicesSubTitle">Handle With Care Workshops</span><span>– Call or email for pricing</span>
         <p>If you’re a pet professional, you want animals to be comfortable and relaxed when they are in your care. It makes treating, grooming and caring for them more enjoyable, both for you and the pet as well as for their owners.
         </p>
         <p>
@@ -23,10 +29,7 @@ export default class Body extends Component {
         <p>
         Contact us for a list of available workshops and private sessions.
         </p>
-        </div>
-
-        <div>
-        <span className="vetservicesTitle">Pet Industry Presentations</span>
+        <span className="vetservicesSubTitle">Pet Industry Presentations</span>
         <p>
         Michelle has over 15 years of experience working in the pet industry. She has worked for and consulted with some of the largest pet product manufacturers and training organizations. Michelle offers a variety of presentations and services to provide education and expertise to enhance your products, people and customers experience. Call or email for availability and pricing on the following topics/consulting options or let us custom design a program for you.
         </p>
@@ -39,9 +42,7 @@ export default class Body extends Component {
         <p>
         How Animal’s Learn – Dig deep into how learning occurs and how to best implement this into your program. Essential for new staff in pet care fields. Also a great team building program!
         </p>
-        </div>
-        <div>
-        <span className="vetservicesTitle">Pet Industry Consulting </span>
+        <span className="vetservicesSubTitle">Pet Industry Consulting </span>
         <p>
         Expertise on pet product development, blogging, education programs, marketing in relation to pet behavior and training,
         </p>
