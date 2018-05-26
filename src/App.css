@@ -366,8 +366,8 @@
    margin-bottom:5%;
    float:left;
 }
+
 .servicePageRight {
-#   float:right;
   text-align: left;
   margin-right:5%;
   margin-left:5%;
@@ -437,19 +437,12 @@
         font-family: Arial, Helvetica, sans-serif;
 }
 
-.vetservicesPage table {
-    padding:25px;
-    vertical-align: center;
+.vetservicesPage p {
+     text-align: left;
+     margin-left:6%;
+     margin-right:6%;
 }
 
-.vetservicesPage td {
-    padding:10px;
-    vertical-align: center;
-}
-
-.vetservicesImage {
-    width: 2%;
-}
 
 .vetservicesTitle {
     font-size:125%;
@@ -457,11 +450,6 @@
     font-weight: bold;
 }
 
-.vetservicesText {
-    font-size:100%;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-}
 
 
 .oddRow  {

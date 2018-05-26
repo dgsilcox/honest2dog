@@ -17,7 +17,7 @@ export default class Body extends Component {
        </tr>
        <tr>
             <td><a href="/handlewithcare"><span className="servicesMenuTitle">Handle With Care</span><br/><span className="servicesMenuText">Cooperative care training for dogs, cats, guinea pigs & more!</span></a></td>
-            <td><a href="/behavior"><span className="servicesMenuTitle">Behavior Modification</span><br/><span className="servicesMenuText">Dog of all ages Serious behavior issues</span></a></td>
+            <td><a href="/behavior"><span className="servicesMenuTitle">Behavior Modification</span><br/><span className="servicesMenuText">Dog of all ages. Serious behavior issues</span></a></td>
        </tr>
        </table>
       </div>

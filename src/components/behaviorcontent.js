@@ -11,7 +11,7 @@ export default class Body extends Component {
         </div>
         <hr/>
         <div className="servicePageLeft">
-          <img src="img/callisto_puppy.jpg"/>
+          <img src="img/artemis_muddy.jpg"/>
           <br/>
         </div>
         <div className="servicePageRight">
@@ -19,23 +19,20 @@ export default class Body extends Component {
                 Develop practical management and behavior modification for behaviors that can affect a pet’s (and their family’s) well-being and safety.
               </p>
               <br/><br/>
-        </div>
-        <div className="servicePageRates">
-        <div>
-           <hr/>
-           <span className="servicesPageTitle">First Step: Behavior Consult (75 to 90 minutes): $125</span>
-           <p>
-           Sometimes our canine companions have behavior issues that impact their welfare, not to mention, the safety of the people and pets who come into contact with them. In our Behavior Consult, we design a plan to address issues like aggression, resource guarding, reactivity and anxiety, which require more than basic learning skills and socialization. In addition we coordinate with your veterinarian to ensure all your dog’s behavioral needs are being met by your entire pet care team.
-           </p>
-         </div>
-         <div>
+
+             <span className="servicesPageTitle">First Step: Behavior Consult (75 to 90 minutes): $125</span>
+             <p>
+             Sometimes our canine companions have behavior issues that impact their welfare, not to mention, the safety of the people and pets who come into contact with them. In our Behavior Consult, we design a plan to address issues like aggression, resource guarding, reactivity and anxiety, which require more than basic learning skills and socialization. In addition we coordinate with your veterinarian to ensure all your dog’s behavioral needs are being met by your entire pet care team.
+             </p>
              <br/>
              <span className="servicesTitle">Next Steps</span>
              <br/>
              <span className="servicesText">Select a training plan that best fits your needs.</span>
-         </div>
+
+        </div>
+        <div className="servicePageRates">
+        <hr/>
          <div>
-         <br/>
          <br/>
          <span className="servicesTitle">Packages</span>
          <br/>

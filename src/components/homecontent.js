@@ -5,7 +5,7 @@ export default class Body extends Component {
     return (
         <div className="homePage">
             <div className="homeTop">
-                <span><img src="img/brisbane_leaves.gif"/></span>
+                <span><img src="img/brisbane_leaves.jpg"/></span>
                 <div className="homeText">
                    <div className="homeTextTop">Positive, Fear Free Animal Training</div>
                    <div className="homeTextBottom"><br/><br/><a href="mailto:michelle@honesttodogrva.com">Let’s start bringing out the best in your dog today!!</a></div>

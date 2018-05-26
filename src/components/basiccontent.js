@@ -11,7 +11,7 @@ export default class Body extends Component {
         </div>
         <hr/>
         <div className="servicePageLeft">
-          <img src="img/callisto_puppy.jpg"/>
+          <img src="img/JinksTD1.jpg"/>
           <br/>
         </div>
         <div className="servicePageRight">
@@ -21,25 +21,24 @@ export default class Body extends Component {
               <p>
               A great follow up to Puppy Training!
               </p>
-              <br/><br/>
-        </div>
-        <div className="servicePageRates">
-        <div>
-           <hr/>
-           <span className="servicesPageTitle">First Step: Basics Consult (75 minutes): $125</span>
-           <p>
-           Honest To Dog discusses your dog’s current skill level, personality, breed/mix and your dog’s behavioral health and enrichment. We also talk about your lifestyle and how your pet fits into that lifestyle. With you and your family, we determine the specific skills you’d like your furry companion to learn—from sit and stay to loose-leash walking - and design a training plan to meet your goals. Also includes a quick-start training demo for your entire family.
-           </p>
-         </div>
-         <div>
+              <br/>
+             <span className="servicesPageTitle">First Step: Basics Consult (75 minutes): $125</span>
+             <p>
+             Honest To Dog discusses your dog’s current skill level, personality, breed/mix and your dog’s behavioral health and enrichment. We also talk about your lifestyle and how your pet fits into that lifestyle. With you and your family, we determine the specific skills you’d like your furry companion to learn—from sit and stay to loose-leash walking - and design a training plan to meet your goals. Also includes a quick-start training demo for your entire family.
+             </p>
              <br/>
              <span className="servicesTitle">Next Steps</span>
              <br/>
              <span className="servicesText">Select single, a la carte session or training packages based on your goals.
                                             Together we will select the skills you want your dog to learn and design a training plan to get you on your way to a great relationship with your best friend.</span>
+
+        </div>
+        <div className="servicePageRates">
+        <div>
+           <br/>
+           <hr/>
          </div>
          <div>
-         <br/>
          <br/>
          <span className="servicesTitle">Honest Dog Packages</span>
          <br/>
