@@ -161,11 +161,22 @@
     width:70%;
 }
 
+.homeTextBottom  a {
+    color: rgb(167,198,228);
+    text-decoration:none;
+}
+
 .homeBottom {
     text-align:center;
     background-color:rgb(75,76,77);
     width:100%;
     color:white;
+}
+
+.homeBottom p {
+    text-align:left;
+    margin-right:5%;
+    margin-left:5%;
 }
 
 .homeBottom hr {
@@ -210,7 +221,7 @@
 
 .aboutPage {
     font-family: Arial, Helvetica, sans-serif;
-display: block;
+    display: block;
 }
 
 .aboutTop {
@@ -243,10 +254,6 @@ display: block;
 #  border-style:solid;
 #   width: 100%;
     width:400px;
-#  padding:0%;
-#   margin-left: 1%;
-#   margin-right: 1%;
-
 }
 
 .aboutBottom {
@@ -259,11 +266,8 @@ display: block;
 }
 
 .creds {
-  font-size:70%;
+  font-size:150%;
 }
-
-
-
 
 .goalsPage {
        font-family: Arial, Helvetica, sans-serif;
@@ -288,6 +292,8 @@ display: block;
 .servicesMenuPage {
         font-family: Arial, Helvetica, sans-serif;
         align:center;
+        margin-left:5%;
+        margin-right:5%;
 }
 
 .serviceMenuPageTitle {
@@ -314,7 +320,8 @@ display: block;
     width:30%;
     vertical-align: center;
     # background-color:rgb(238,129,55);
-    background: linear-gradient(orange,red);
+    # background: linear-gradient(orange,dark orange);
+    background: linear-gradient(rgba(255,165,0,1), rgba(255,120,0,1));
     # width:100px;
 }
 
@@ -342,7 +349,9 @@ display: block;
 }
 
 .servicesPage {
-        font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:5%;
+    margin-right:5%;
 }
 
 .servicesPageTitle {

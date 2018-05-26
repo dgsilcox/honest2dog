@@ -7,7 +7,7 @@ export default class Body extends Component {
       <div className="servicesPage">
         <div>
           <br/>
-          <span className="servicesPageTitle">Behavior Consulting</span><br/><span className="servicesText">Beyond the basics</span>
+          <span className="servicesPageTitle">Behavior Modification</span><br/><span className="servicesText">Available for dogs of all ages with serious behavior issues.</span>
         </div>
         <hr/>
         <div className="servicePageLeft">
@@ -16,23 +16,23 @@ export default class Body extends Component {
         </div>
         <div className="servicePageRight">
               <p>
-                Sometimes our canine companions have specific behavior issues that are beyond learning appropriate manners. Challenges like resource guarding, reactivity, separation and other anxiety related behaviors and aggression must be addressed for the safety and welfare of everyone. These sessions are designed address these issues with behavior modification plans.
-              </p>
-              <p>
-                All engagements start with our Inital Consult.
+                Develop practical management and behavior modification for behaviors that can affect a pet’s (and their family’s) well-being and safety.
               </p>
               <br/><br/>
         </div>
         <div className="servicePageRates">
         <div>
            <hr/>
-           <span className="servicesPageTitle">Rates</span>
+           <span className="servicesPageTitle">First Step: Behavior Consult (75 to 90 minutes): $125</span>
+           <p>
+           Sometimes our canine companions have behavior issues that impact their welfare, not to mention, the safety of the people and pets who come into contact with them. In our Behavior Consult, we design a plan to address issues like aggression, resource guarding, reactivity and anxiety, which require more than basic learning skills and socialization. In addition we coordinate with your veterinarian to ensure all your dog’s behavioral needs are being met by your entire pet care team.
+           </p>
          </div>
          <div>
              <br/>
-             <span className="servicesTitle">Initial Consult - $135.00</span>
+             <span className="servicesTitle">Next Steps</span>
              <br/>
-             <span className="servicesText">Start the learning series with a quick start training demo for your entire family</span>
+             <span className="servicesText">Select a training plan that best fits your needs.</span>
          </div>
          <div>
          <br/>

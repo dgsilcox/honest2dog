@@ -7,7 +7,7 @@ export default class Body extends Component {
       <div className="servicesPage">
         <div>
           <br/>
-          <span className="servicesPageTitle">Handle With Care</span><br/><span className="servicesText">All Ages, available for dogs, cats, guinea pigs and more</span>
+          <span className="servicesPageTitle">Handle With Care</span><br/><span className="servicesText">All Ages, available for dogs, cats, guinea pigs and more of all ages</span>
         </div>
         <hr/>
         <div className="servicePageLeft">
@@ -15,31 +15,28 @@ export default class Body extends Component {
           <br/>
         </div>
         <div className="servicePageRight">
-                 <p>Want your pet to enjoy and participate in essential care activities? Does your pet suffer stress, anxiety or fear associated with veterinary and grooming procedures as well as the transportation to and from the facilities?
+                 <p>Relieve fear, anxiety and stress during transportation and care procedures such as nail trims, medical exams, grooming and medicating. Teach your pet to be comfortable and relaxed at the veterinarian’s or groomer’s office.
                 </p>
-                <p>Includes discussion of training goals and resources on bathing, transportation, nail trimming, examinations, injections, brushing and many other grooming and veterinary procedures.
-                </p>
-                <p>The goal is to teach pets to happily cooperate in their own care and relieve the fear, anxiety and stress they have to create a safe, comfortable experience. Focus on skills that are essential and will prepare you both for a lifetime of quality care. Pets learn to happily cooperate in their own care and we relieve the fear, anxiety and stress they have to create a safe, comfortable experience. This package will be tailored to include transportation, nail trimming, examinations, injections, brushing, bathing and many other grooming and veterinary procedures your pet finds concerning or stressful
-                </p>
-              <p>All engagements start with our Inital Consult.
-              </p>
               <br/><br/>
         </div>
         <div className="servicePageRates">
         <div>
            <hr/>
-           <span className="servicesPageTitle">Rates</span>
+           <span className="servicesPageTitle">First Step: Handle With Care Intro (60 minutes): $100.00</span>
+           <p>Does your pet become anxious, stressed or fearful when they’re at the vet or groomer or on the ride to and from these facilities? In this consultation, we’ll discuss training goals and resources for bathing, transportation, nail trimming, examinations, injections, brushing and more. We’ll then design a Handle With Care training plan to help ease your pet’s stress and acclimate them to these essential-care activities.
+           </p>
          </div>
          <div>
              <br/>
-             <span className="servicesTitle">Initial Consult - $125.00</span>
+             <span className="servicesTitle">Next Steps</span>
              <br/>
-             <span className="servicesText">Start the learning series with a quick start training demo for your entire family</span>
+             <span className="servicesText">Select single, a la carte session or a training package based on your goals.
+                                            Together we will select the skills you want your animal needs design a training plan to get you on your way to stress free cooperative care.</span>
          </div>
          <div>
          <br/>
          <br/>
-         <span className="servicesTitle">Packages</span>
+         <span className="servicesTitle">Handle With Care Packages</span>
          <br/>
          <span className="servicesText">Customized 1 hr sessions for you and any family members</span>
          <br/><br/>

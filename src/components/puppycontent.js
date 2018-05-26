@@ -7,7 +7,7 @@ export default class Body extends Component {
       <div className="servicesPage">
         <div>
           <br/>
-          <span className="servicesPageTitle">Puppy Training</span><br/><span className="servicesText">Puppies under 6 months</span>
+          <span className="servicesPageTitle">Puppy Training</span><br/><span className="servicesText">Puppies younger than 5 months.</span>
         </div>
         <hr/>
         <div className="servicePageLeft">
@@ -16,28 +16,25 @@ export default class Body extends Component {
         </div>
         <div className="servicePageRight">
               <p>
-                Evaluation or consult on the new puppy you plan to add or have added to your family.  We will discuss the basic training you want your new puppy to have, what activities your new puppy might enjoy based on your pup’s personality and breed/mix.
+                Lay the foundation for a great lifelong relationship with your new puppy.
               </p>
-              <p>
-                All engagements start with our Inital Consult.
-              </p>
-              <br/><br/>
+              <br/>
         </div>
         <div className="servicePageRates">
-        <div>
-           <hr/>
-           <span className="servicesPageTitle">Rates</span>
-         </div>
          <div>
              <br/>
-             <span className="servicesTitle">Initial Consult - $125.00</span>
+             <span className="servicesTitle">We start with our New Puppy Consult $100</span>
              <br/>
-             <span className="servicesText">Start the learning series with a quick start training demo for your entire family</span>
+             <span className="servicesText">This initial consultation of 1 Hour & 15 Minutes on the new puppy you have added to your family will get you started on a great puppy raising experience! We will discuss your lifestyle, the skills your puppy needs from house training to a reliable come when called, and more. We’ll consider your pup’s personality and breed/mix, introductions to current family pets, and provide a quick start training demo for your entire family. Together we will design a plan to bring out the best in your puppy and meet your goals.</span>
          </div>
          <div>
          <br/>
          <br/>
-         <span className="servicesTitle">Packages</span>
+                  <span className="servicesTitle">Next Steps</span>
+                  <p>Single, a la carte session or puppy training packages based on your goals.
+                     Together we will select the skills you want your puppy to learn and design a training plan to get you on your way to a great relationship with your puppy.</p>
+         <br/>
+         <span className="servicesTitle">Honest Dog Packages</span>
          <br/>
          <span className="servicesText">Customized 1 hr sessions for you and any family members</span>
          <br/><br/>

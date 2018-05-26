@@ -7,7 +7,7 @@ export default class Body extends Component {
       <div className="servicesPage">
         <div>
           <br/>
-          <span className="servicesPageTitle">Basic Training</span><br/><span className="servicesText">Dogs 5 months or older</span>
+          <span className="servicesPageTitle">All the Basics</span><br/><span className="servicesText">Dogs 5 months or older</span>
         </div>
         <hr/>
         <div className="servicePageLeft">
@@ -16,28 +16,32 @@ export default class Body extends Component {
         </div>
         <div className="servicePageRight">
               <p>
-                Evaluation or consult on the family pet you plan to add or have added to your family.  We will discuss the basic training you want your pet to have, what activities your pet might enjoy based on your pet’s personality and breed/mix.
+                Bring out the best in your dog - whether they just moved in or they’ve lived with you for years.
               </p>
               <p>
-                All engagements start with our Inital Consult.
+              A great follow up to Puppy Training!
               </p>
               <br/><br/>
         </div>
         <div className="servicePageRates">
         <div>
            <hr/>
-           <span className="servicesPageTitle">Rates</span>
+           <span className="servicesPageTitle">First Step: Basics Consult (75 minutes): $125</span>
+           <p>
+           Honest To Dog discusses your dog’s current skill level, personality, breed/mix and your dog’s behavioral health and enrichment. We also talk about your lifestyle and how your pet fits into that lifestyle. With you and your family, we determine the specific skills you’d like your furry companion to learn—from sit and stay to loose-leash walking - and design a training plan to meet your goals. Also includes a quick-start training demo for your entire family.
+           </p>
          </div>
          <div>
              <br/>
-             <span className="servicesTitle">Initial Consult - $125.00</span>
+             <span className="servicesTitle">Next Steps</span>
              <br/>
-             <span className="servicesText">Start the learning series with a quick start training demo for your entire family</span>
+             <span className="servicesText">Select single, a la carte session or training packages based on your goals.
+                                            Together we will select the skills you want your dog to learn and design a training plan to get you on your way to a great relationship with your best friend.</span>
          </div>
          <div>
          <br/>
          <br/>
-         <span className="servicesTitle">Packages</span>
+         <span className="servicesTitle">Honest Dog Packages</span>
          <br/>
          <span className="servicesText">Customized 1 hr sessions for you and any family members</span>
          <br/><br/>
