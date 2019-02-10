@@ -50,9 +50,11 @@
     width:100%;
 }
 
-.menuItem {
+.menuItem a {
     margin-left:1%;
     margin-right:1%;
+    color: rgb(172,86,0);
+    text-decoration:none;
 }
 
 .menu ul {
@@ -81,6 +83,9 @@
    display: inline-block;
    width:100%;
    height:100%;
+   #color: rgb(172,86,0);
+   color:black;
+
 }
 
 .dropdown__trigger {
@@ -117,7 +122,7 @@
 
 
 .homePage {
-    position:relative;
+        position:relative;
     margin-left: 0%;
     margin-right:0%;
     margin-top: 0%;
@@ -156,11 +161,22 @@
     width:70%;
 }
 
+.homeTextBottom  a {
+    color: rgb(167,198,228);
+    text-decoration:none;
+}
+
 .homeBottom {
     text-align:center;
     background-color:rgb(75,76,77);
     width:100%;
     color:white;
+}
+
+.homeBottom p {
+    text-align:left;
+    margin-right:5%;
+    margin-left:5%;
 }
 
 .homeBottom hr {
@@ -205,6 +221,7 @@
 
 .aboutPage {
     font-family: Arial, Helvetica, sans-serif;
+    display: block;
 }
 
 .aboutTop {
@@ -212,26 +229,45 @@
   font-size: 200%;
 }
 
-.aboutPage img {
-  width: 100%;
+.aboutLeft {
+  float:left;
+#  width:40%;
+  margin-left:5%;
+  margin-right:5%;
+#  border-style:solid;
 }
 
-.aboutMid {
-
+.aboutRight {
+#   float: right;
+#   width:40%;
+#   border-style:solid;
+   text-align:left;
+   margin-left: 5%;
+   margin-right: 5%;
 }
 
-.creds {
-  font-size:70%;
+.aboutRight p{
+#   width:100%;
+}
+
+.aboutLeft img {
+#  border-style:solid;
+#   width: 100%;
+    width:400px;
 }
 
 .aboutBottom {
-   float: left;
-   width:95%;
-   text-align:left;
-   margin-left: 3%;
-   margin-right: 10%;
+    clear:both;
+    margin-top:5%;
+    margin-right:5%;
+    margin-left:5%;
+    display:block;
+    text-align:left;
 }
 
+.creds {
+  font-size:150%;
+}
 
 .goalsPage {
        font-family: Arial, Helvetica, sans-serif;
@@ -252,18 +288,130 @@
 
 }
 
-.servicesPage {
+
+.servicesMenuPage {
         font-family: Arial, Helvetica, sans-serif;
+        align:center;
+        margin-left:5%;
+        margin-right:5%;
+}
+
+.serviceMenuPageTitle {
+    font-size:125%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.servicesMenuPage table {
+    padding:5%;
+    vertical-align: center;
+    width:80%;
+    # border-style: solid;
+    margin-left:10%;
+    margin-right:10%;
+    # border-spacing: 2%;
+    border-spacing: 10px;
+
+
+}
+
+.servicesMenuPage td {
+    padding:5%;
+    width:30%;
+    vertical-align: center;
+    # background-color:rgb(238,129,55);
+    # background: linear-gradient(orange,dark orange);
+    background: linear-gradient(rgba(255,165,0,1), rgba(255,120,0,1));
+    # width:100px;
+}
+
+.servicesMenuPage a {
+    text-decoration:none;
+    color:white;
+}
+
+.servicesMenuImage {
+    width: 2%;
+}
+
+.servicesMenuTitle {
+    font-size:125%;
+    text-align: center;
+    font-weight: bold;
+    color:white;
+}
+
+.servicesMenuText {
+    font-size:100%;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+}
+
+.servicesPage {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:5%;
+    margin-right:5%;
+}
+
+.servicesPageTitle {
+    font-size:125%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.servicePageLeft {
+   margin-left:5%;
+   margin-right:5%;
+   margin-bottom:5%;
+   float:left;
+}
+
+.servicePageRight {
+  text-align: left;
+  margin-right:5%;
+  margin-left:5%;
+}
+
+.servicesPage img {
+  width:300px;
+}
+
+.servicePageRates {
+    clear:both;
+    margin-right:5px;
+    display:block;
 }
 
 .servicesPage table {
-    padding:25px;
-    vertical-align: center;
+    margin-left:5%;
+    margin-right:5%;
+    width:90%;
+    #padding:25px;
+    # vertical-align: center;
+    # horizontal-align: left;
+    # text-align:left;
+    border-style: solid;
+    # align:left;
+    # border-spacing: 10px;
+
 }
 
 .servicesPage td {
-    padding:10px;
-    vertical-align: center;
+    # padding-left:30px;
+    # padding-right:30px;
+    # padding:10px;
+    # width:40%;
+    # vertical-align: center;
+    # border-style: solid;
+     text-align: center;
+    # border-bottom:solid;
+    # border-right:solid;
+    border-inner:solid;
+}
+
+.servicesText ul li {
+    text-decoration:none;
 }
 
 .servicesImage {
@@ -274,6 +422,8 @@
     font-size:125%;
     text-align: center;
     font-weight: bold;
+    width:40%;
+    # color:blue;
 }
 
 .servicesText {
@@ -286,19 +436,15 @@
 .vetservicesPage {
         font-family: Arial, Helvetica, sans-serif;
 }
-
-.vetservicesPage table {
-    padding:25px;
-    vertical-align: center;
+.vetservicesPage img {
+  width:300px;
 }
 
-.vetservicesPage td {
-    padding:10px;
-    vertical-align: center;
-}
 
-.vetservicesImage {
-    width: 2%;
+.vetservicesPage p {
+     text-align: left;
+     margin-left:6%;
+     margin-right:6%;
 }
 
 .vetservicesTitle {
@@ -307,10 +453,10 @@
     font-weight: bold;
 }
 
-.vetservicesText {
-    font-size:100%;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+.vetservicesSubTitle {
+    font-size:125%;
+    text-align: left;
+    font-weight: bold;
 }
 
 
